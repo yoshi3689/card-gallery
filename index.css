@@ -23,7 +23,6 @@ body {
     flex-flow: row wrap;
     width: 100vw;
     height: 75vh;
-    content: '';
 }
 
 .card {
