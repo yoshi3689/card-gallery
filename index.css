@@ -1,17 +1,20 @@
-:root {
-    --color-w: #fff;
-    --color-card-bg1: rgb(45, 158, 161);
-    
-}
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+:root {
+    --color-w: #fff;
+    --color-card-bg1: rgb(45, 161, 107);
+    --color-card-bg2: rgb(159, 161, 45);
+    --color-card-bg3: rgb(45, 147, 161);
+    --color-card-bg4: rgb(95, 45, 161);
+    --color-card-bg4: rgb(161, 45, 109);
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', 'Open Sans', 'Lato', sans-serif, Helvetica;
     /* overflow: auto; */
 }
 
@@ -59,7 +62,7 @@ body {
 
 .text {
     width: 100%;
-    height: 25vh;
+    height: fit-content;
 
     display: flex;
     flex-direction: column;
@@ -69,13 +72,13 @@ body {
 .card-header {
     width: 100%;
     margin: 2rem 0;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 .description {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .control {
