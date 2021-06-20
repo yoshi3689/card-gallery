@@ -6,11 +6,11 @@
 
 :root {
     --color-w: #fff;
-    --color-card-bg1: rgb(45, 161, 107);
-    --color-card-bg2: rgb(159, 161, 45);
-    --color-card-bg3: rgb(45, 147, 161);
-    --color-card-bg4: rgb(95, 45, 161);
-    --color-card-bg4: rgb(161, 45, 109);
+    --color-card-green: rgb(45, 161, 107);
+    --color-card-yellow: rgb(159, 161, 45);
+    --color-card-blue: rgb(45, 147, 161);
+    --color-card-purple: rgb(95, 45, 161);
+    --color-card-pink: rgb(161, 45, 109);
 }
 
 body {
@@ -36,18 +36,51 @@ body {
     width: calc(33vw - 2rem);
     height: 100vh;
     margin: 0 1rem;
-    background-color: var(--color-card-bg1);
 }
+
+#card-green {
+    background-color: var(--color-card-green);
+}
+#card-blue {
+    background-color: var(--color-card-blue);
+}
+#card-pink {
+    background-color: var(--color-card-pink);
+}
+#card-yellow {
+    background-color: var(--color-card-yellow);
+}
+#card-purple {
+    background-color: var(--color-card-purple);
+}
+
 
 .image {
     width: 100%;
     height: 50%;
-    background-image: url(./imgs/joshua-rawson-harris-ZId1E6G2hSU-unsplash.jpg);
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#card-green > .image {
+    background-image: url(./imgs/joshua-rawson-harris-ZId1E6G2hSU-unsplash.jpg);
+}
+#card-blue > .image {
+    background-image: url(./imgs/naraa-in-ub-_0evYXbJTeM-unsplash.jpg);
+    
+}
+#card-pink > .image {
+    background-image: url(./imgs/pexels-karolina-grabowska-4207791.jpg);
+}
+#card-yellow > .image {
+    background-image: url(./imgs/pexels-roman-odintsov-6979830.jpg);
+}
+#card-purple > .image {
+    background-image: url(./imgs/pexels-clement-percheron-7236744.jpg);
+}
+
 
 .card-content {
     width: 100%;
@@ -118,7 +151,22 @@ body {
     box-shadow: none;
 }
 
-#next {
-    color: var(--color-card-bg1);
+.reverse {
     background-color: var(--color-w);
+}
+
+#next-green {
+    color: var(--color-card-green);
+}
+#next-blue {
+    color: var(--color-card-blue);
+}
+#next-pink {
+    color: var(--color-card-pink);
+}
+#next-yellow {
+    color: var(--color-card-yellow);
+}
+#next-purple {
+    color: var(--color-card-purple);
 }
